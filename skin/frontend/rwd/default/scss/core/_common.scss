@@ -41,6 +41,11 @@
     width: device-width;
 }
 
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat/Montserrat-Regular.otf');
+}
+
 // Prevent 300ms delay in IE on touch devices
 a, button {
     -ms-touch-action: manipulation;
