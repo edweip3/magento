@@ -224,6 +224,12 @@ $_specialPriceStoreLabel = $this->getProductAttribute('special_price')->getStore
                 </span>
             </p>
 
+            <p class="msrp-price">
+                <span class="price-label"><?php echo $this->__('Suggested:') ?></span>
+                <span class="price" id="old-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
+                    <?php echo $_coreHelper->formatPrice($_product->getMsrp() + $_originalWeeeTaxAmount, false) ?>
+                </span>
+            </p>
             <?php if ($_taxHelper->displayBothPrices()): ?>
                 <p class="special-price">
                     <span class="price-label"><?php echo $_specialPriceStoreLabel ?></span>
@@ -257,6 +263,12 @@ $_specialPriceStoreLabel = $this->getProductAttribute('special_price')->getStore
                 </span>
             </p>
 
+            <p class="msrp-price">
+                <span class="price-label"><?php echo $this->__('Suggested:') ?></span>
+                <span class="price" id="old-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
+                    <?php echo $_coreHelper->formatPrice($_product->getMsrp() + $_originalWeeeTaxAmount, false) ?>
+                </span>
+            </p>
             <p class="special-price">
             <?php if ($_taxHelper->displayBothPrices()): ?>
                 <span class="price-label"><?php echo $_specialPriceStoreLabel ?></span>
@@ -302,6 +314,12 @@ $_specialPriceStoreLabel = $this->getProductAttribute('special_price')->getStore
                     <?php echo $_coreHelper->formatPrice($_regularPrice + $_originalWeeeTaxAmount, false) ?>
                 </span>
             </p>
+            <p class="msrp-price">
+                <span class="price-label"><?php echo $this->__('Suggested:') ?></span>
+                <span class="price" id="old-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
+                    <?php echo $_coreHelper->formatPrice($_product->getMsrp() + $_originalWeeeTaxAmount, false) ?>
+                </span>
+            </p>
 
             <p class="special-price">
                 <span class="price-label"><?php echo $_specialPriceStoreLabel ?></span>
@@ -330,6 +348,13 @@ $_specialPriceStoreLabel = $this->getProductAttribute('special_price')->getStore
                 <span class="price-label"><?php echo $this->__('Regular Price:') ?></span>
                 <span class="price" id="old-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
                     <?php echo $_coreHelper->formatPrice($_regularPrice, false) ?>
+                </span>
+            </p>
+
+            <p class="msrp-price">
+                <span class="price-label"><?php echo $this->__('Suggested:') ?></span>
+                <span class="price" id="old-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
+                    <?php echo $_coreHelper->formatPrice($_product->getMsrp() + $_originalWeeeTaxAmount, false) ?>
                 </span>
             </p>
 
@@ -362,6 +387,12 @@ $_specialPriceStoreLabel = $this->getProductAttribute('special_price')->getStore
                 </span>
             </p>
 
+            <p class="msrp-price">
+                <span class="price-label"><?php echo $this->__('Suggested:') ?></span>
+                <span class="price" id="old-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
+                    <?php echo $_coreHelper->formatPrice($_product->getMsrp() + $_originalWeeeTaxAmount, false) ?>
+                </span>
+            </p>
             <?php if ($_taxHelper->displayBothPrices()): ?>
                 <p class="special-price">
                     <span class="price-label"><?php echo $_specialPriceStoreLabel ?></span>
